@@ -1,7 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    
+    margin: 0
 }
 .font-family{
     color: orange;
@@ -9,9 +8,10 @@ body{
 h1{
     font-size: 40px;
 }
-section{
+.flexible-container{
     display: flex;
-    padding: 20px;
+    margin-bottom: 150px;
+    
     
 }
 .half-width{
@@ -38,4 +38,44 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.color{
+    color: orange;
+}
+.flexible-container{
+    
+    
+}
+.border{
+    width: 40%;
+    box-shadow:10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border: 1opx solid red;
+    
+    border-radius: 10px;
+    
+
+}
+.experience{
+    text-align: center;
+}
+#ex-id{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan );
+    border-image-slice: 1;
+}
+#exp-id{
+    border-left: 10px solid;
+    border-image:linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+p{
+    text-align: center;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
